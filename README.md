@@ -29,10 +29,10 @@ A Python script to rename video files in a directory based on a course content t
    ├── lesson2.mp4
    ├── ...
    ├── lesson100.mp4
-   ├── Mastering Kubernetes.txt
+   ├── lessons.txt
    └── Readme.txt
    ```
-The Mastering Kubernetes.txt file should contain the names of the lectures, one per line.
+The lessons.txt file should contain the names of the lectures, one per line.
 
 Run the script:
 

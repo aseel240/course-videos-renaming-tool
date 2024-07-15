@@ -16,3 +16,27 @@ A Python script to rename video files in a directory based on a course content t
    ```sh
    git clone https://github.com/aseel240/course-videos-renaming-tool.git
    cd course-videos-renaming-tool
+   ```
+
+
+2. Prepare your directory with video files and a course content text file. For example:
+
+   ```sh
+   D:/Education/course01
+   ```
+   ```sh
+   ├── lesson1.mp4
+   ├── lesson2.mp4
+   ├── ...
+   ├── lesson100.mp4
+   ├── Mastering Kubernetes.txt
+   └── Readme.txt
+   ```
+The Mastering Kubernetes.txt file should contain the names of the lectures, one per line.
+
+Run the script:
+
+   ```sh
+   python renamer.py
+   ```
+Follow the prompts to enter the directory and content file paths.
